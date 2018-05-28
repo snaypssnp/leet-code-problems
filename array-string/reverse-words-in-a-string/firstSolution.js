@@ -1,6 +1,6 @@
 /*
  https://leetcode.com/problems/reverse-words-in-a-string/description/
- 
+
 Solution:
 
 O(n) runtime, O(n) space
@@ -15,7 +15,6 @@ function reverseWords(str) {
   let j = str.length;
 
   for (let i = str.length - 1; i >= 0; i--) {
-    console.log(i);
     if (str[i] === " ") {
 
       j = i;
