@@ -1,7 +1,7 @@
 /*
  https://leetcode.com/problems/longest-palindromic-substring/description/
 
- O(n2) runtime, O(1) space
+ O(n^2) runtime, O(1) space
  */
 
 /**
