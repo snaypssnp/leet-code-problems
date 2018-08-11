@@ -19,6 +19,7 @@ function arrayNesting(nums) {
     do {
       j = nums[j];
       count++;
+      set.add(j);
     } while (j !== nums[i]);
 
     max = Math.max(count, max)
