@@ -10,7 +10,7 @@ function arrayNesting(nums) {
 
   for (let i  = 0; i < nums.length; i++) {
     if (set.has(i)) {
-      break;
+      continue;
     }
 
     let j = nums[i];
